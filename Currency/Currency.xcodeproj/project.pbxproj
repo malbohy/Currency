@@ -120,13 +120,11 @@
 		26A302AC27DA1B610007253D /* Currency */ = {
 			isa = PBXGroup;
 			children = (
+				26A302E527DA1F460007253D /* AppDelegate */,
+				26A302E427DA1F400007253D /* Modules */,
 				26A302E127DA1E130007253D /* Utilities */,
 				26A302DE27DA1DED0007253D /* Resources */,
 				26A302DD27DA1D900007253D /* Supporting Files */,
-				26A302AD27DA1B610007253D /* AppDelegate.swift */,
-				26A302AF27DA1B610007253D /* SceneDelegate.swift */,
-				26A302B127DA1B610007253D /* ViewController.swift */,
-				26A302B327DA1B610007253D /* Main.storyboard */,
 			);
 			path = Currency;
 			sourceTree = "<group>";
@@ -172,6 +170,152 @@
 				26A302E227DA1E490007253D /* ReachabilityManager.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		26A302E427DA1F400007253D /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				26A302E827DA1F740007253D /* Data */,
+				26A302E727DA1F6E0007253D /* Domain */,
+				26A302E627DA1F680007253D /* Presentation */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		26A302E527DA1F460007253D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				26A302AD27DA1B610007253D /* AppDelegate.swift */,
+				26A302AF27DA1B610007253D /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		26A302E627DA1F680007253D /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				26A302E927DA1F950007253D /* CurrencyConversions */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		26A302E727DA1F6E0007253D /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				26A302F027DA1FEF0007253D /* RepositoryProtocol */,
+				26A302EF27DA1FE50007253D /* ResponseMapper */,
+				26A302EE27DA1FDC0007253D /* ModuleEntity */,
+				26A302ED27DA1FD20007253D /* DataProvider */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		26A302E827DA1F740007253D /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				26A302F427DA20190007253D /* DataAccess */,
+				26A302F327DA200B0007253D /* ResponseEntity */,
+				26A302F227DA20030007253D /* Repository */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		26A302E927DA1F950007253D /* CurrencyConversions */ = {
+			isa = PBXGroup;
+			children = (
+				26A302EC27DA1FB30007253D /* Coordinator */,
+				26A302EB27DA1FAB0007253D /* ViewModel */,
+				26A302EA27DA1FA60007253D /* View */,
+			);
+			path = CurrencyConversions;
+			sourceTree = "<group>";
+		};
+		26A302EA27DA1FA60007253D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				26A302B127DA1B610007253D /* ViewController.swift */,
+				26A302B327DA1B610007253D /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		26A302EB27DA1FAB0007253D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		26A302EC27DA1FB30007253D /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
+		26A302ED27DA1FD20007253D /* DataProvider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DataProvider;
+			sourceTree = "<group>";
+		};
+		26A302EE27DA1FDC0007253D /* ModuleEntity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ModuleEntity;
+			sourceTree = "<group>";
+		};
+		26A302EF27DA1FE50007253D /* ResponseMapper */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseMapper;
+			sourceTree = "<group>";
+		};
+		26A302F027DA1FEF0007253D /* RepositoryProtocol */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = RepositoryProtocol;
+			sourceTree = "<group>";
+		};
+		26A302F227DA20030007253D /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		26A302F327DA200B0007253D /* ResponseEntity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ResponseEntity;
+			sourceTree = "<group>";
+		};
+		26A302F427DA20190007253D /* DataAccess */ = {
+			isa = PBXGroup;
+			children = (
+				26A302F727DA23C80007253D /* LocalStorageManager */,
+				26A302F627DA23C10007253D /* ServiceHandeler */,
+			);
+			path = DataAccess;
+			sourceTree = "<group>";
+		};
+		26A302F627DA23C10007253D /* ServiceHandeler */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ServiceHandeler;
+			sourceTree = "<group>";
+		};
+		26A302F727DA23C80007253D /* LocalStorageManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = LocalStorageManager;
 			sourceTree = "<group>";
 		};
 		6E02EF0C8BF923430F202564 /* Frameworks */ = {
