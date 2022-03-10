@@ -4,7 +4,10 @@
 target 'Currency' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  pod 'RxSwift'
+  pod 'RxCocoa'
+  pod 'Reachability'
+  pod 'Extenstions', :git => 'https://github.com/malbohy/IOSExtnesions.git'
   # Pods for Currency
 
   target 'CurrencyTests' do

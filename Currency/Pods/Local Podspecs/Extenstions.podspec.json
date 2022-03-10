@@ -1,0 +1,102 @@
+{
+  "name": "Extenstions",
+  "version": "0.1.1",
+  "summary": "simple extenstion for adding accessability id for alert actions",
+  "description": "this pod should be used to add accessability id for alert actions when needed to provide the testing team a way to auomate the testing process",
+  "homepage": "https://nagwa-limited@dev.azure.com/nagwa-limited/Nagwa-Libraries-IOS/_git/Extenstions",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mohamed elbohy": "malbohy@gmail.com"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://nagwa-limited@dev.azure.com/nagwa-limited/Nagwa-Libraries-IOS/_git/Extenstions",
+    "tag": "0.1.1"
+  },
+  "source_files": "Extenstions/Extenstions/**/*",
+  "subspecs": [
+    {
+      "name": "AccessabilityId",
+      "source_files": "AccessabilityId/AccessabilityId/**/*",
+      "dependencies": {
+        "Extenstions/UIView": [
+
+        ]
+      }
+    },
+    {
+      "name": "UIView",
+      "source_files": "UIView/UIView/**/*"
+    },
+    {
+      "name": "String",
+      "source_files": "String/String/**/*"
+    },
+    {
+      "name": "Bundle",
+      "source_files": "Bundle/Bundle/**/*"
+    },
+    {
+      "name": "Encodable",
+      "source_files": "Encodable/Encodable/**/*"
+    },
+    {
+      "name": "UILabel",
+      "source_files": "UILabel/Classes/**/*"
+    },
+    {
+      "name": "Float",
+      "source_files": "Float/Classes/**/*"
+    },
+    {
+      "name": "UIViewController",
+      "source_files": "UIViewController/Classes/**/*"
+    },
+    {
+      "name": "NSMutableAttributedString",
+      "source_files": "NSMutableAttributedString/Classes/**/*",
+      "dependencies": {
+        "Extenstions/String": [
+
+        ]
+      }
+    },
+    {
+      "name": "Decodable",
+      "source_files": "Decodable/Classes/**/*"
+    },
+    {
+      "name": "UITableView",
+      "source_files": "UITableView/Classes/**/*"
+    },
+    {
+      "name": "UIDevice",
+      "source_files": "UIDevice/Classes/**/*"
+    },
+    {
+      "name": "FileManager",
+      "source_files": "FileManager/Classes/**/*"
+    },
+    {
+      "name": "UIScrollView",
+      "source_files": "UIScrollView/Classes/**/*"
+    },
+    {
+      "name": "UIImage",
+      "source_files": "UIImage/Classes/**/*"
+    },
+    {
+      "name": "URL",
+      "source_files": "URL/Classes/**/*"
+    },
+    {
+      "name": "AVPlayerExtenstions",
+      "source_files": "AVPlayerExtenstions/Classes/**/*"
+    }
+  ]
+}

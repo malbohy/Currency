@@ -1,0 +1,78 @@
+PODS:
+  - Extenstions (0.1.1):
+    - Extenstions/AccessabilityId (= 0.1.1)
+    - Extenstions/AVPlayerExtenstions (= 0.1.1)
+    - Extenstions/Bundle (= 0.1.1)
+    - Extenstions/Decodable (= 0.1.1)
+    - Extenstions/Encodable (= 0.1.1)
+    - Extenstions/FileManager (= 0.1.1)
+    - Extenstions/Float (= 0.1.1)
+    - Extenstions/NSMutableAttributedString (= 0.1.1)
+    - Extenstions/String (= 0.1.1)
+    - Extenstions/UIDevice (= 0.1.1)
+    - Extenstions/UIImage (= 0.1.1)
+    - Extenstions/UILabel (= 0.1.1)
+    - Extenstions/UIScrollView (= 0.1.1)
+    - Extenstions/UITableView (= 0.1.1)
+    - Extenstions/UIView (= 0.1.1)
+    - Extenstions/UIViewController (= 0.1.1)
+    - Extenstions/URL (= 0.1.1)
+  - Extenstions/AccessabilityId (0.1.1):
+    - Extenstions/UIView
+  - Extenstions/AVPlayerExtenstions (0.1.1)
+  - Extenstions/Bundle (0.1.1)
+  - Extenstions/Decodable (0.1.1)
+  - Extenstions/Encodable (0.1.1)
+  - Extenstions/FileManager (0.1.1)
+  - Extenstions/Float (0.1.1)
+  - Extenstions/NSMutableAttributedString (0.1.1):
+    - Extenstions/String
+  - Extenstions/String (0.1.1)
+  - Extenstions/UIDevice (0.1.1)
+  - Extenstions/UIImage (0.1.1)
+  - Extenstions/UILabel (0.1.1)
+  - Extenstions/UIScrollView (0.1.1)
+  - Extenstions/UITableView (0.1.1)
+  - Extenstions/UIView (0.1.1)
+  - Extenstions/UIViewController (0.1.1)
+  - Extenstions/URL (0.1.1)
+  - Reachability (3.2)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+
+DEPENDENCIES:
+  - Extenstions (from `https://github.com/malbohy/IOSExtnesions.git`)
+  - Reachability
+  - RxCocoa
+  - RxSwift
+
+SPEC REPOS:
+  trunk:
+    - Reachability
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+
+EXTERNAL SOURCES:
+  Extenstions:
+    :git: https://github.com/malbohy/IOSExtnesions.git
+
+CHECKOUT OPTIONS:
+  Extenstions:
+    :commit: 2882f7b0ba7500b1b78b2402dd7882607e750d3d
+    :git: https://github.com/malbohy/IOSExtnesions.git
+
+SPEC CHECKSUMS:
+  Extenstions: 36eeb29f54f9d24f081bb0365810087a1884496c
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+
+PODFILE CHECKSUM: 3db6959d6a153ce7666b343c5c0916eb58ca0894
+
+COCOAPODS: 1.11.2
