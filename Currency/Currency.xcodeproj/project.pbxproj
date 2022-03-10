@@ -17,6 +17,7 @@
 		26A302C527DA1B620007253D /* CurrencyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A302C427DA1B620007253D /* CurrencyTests.swift */; };
 		26A302CF27DA1B620007253D /* CurrencyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A302CE27DA1B620007253D /* CurrencyUITests.swift */; };
 		26A302D127DA1B620007253D /* CurrencyUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A302D027DA1B620007253D /* CurrencyUITestsLaunchTests.swift */; };
+		26A302E027DA1DFB0007253D /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26A302DF27DA1DFB0007253D /* Assets.swift */; };
 		5AD1EB6443CC07336B044DAF /* Pods_CurrencyTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 338CA3EAB0766854FC4C7B59 /* Pods_CurrencyTests.framework */; };
 		601A90E0D8531348C4F479D2 /* Pods_Currency_CurrencyUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DBAED42C505963CF4057D673 /* Pods_Currency_CurrencyUITests.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		26A302CA27DA1B620007253D /* CurrencyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CurrencyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		26A302CE27DA1B620007253D /* CurrencyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyUITests.swift; sourceTree = "<group>"; };
 		26A302D027DA1B620007253D /* CurrencyUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		26A302DF27DA1DFB0007253D /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		338CA3EAB0766854FC4C7B59 /* Pods_CurrencyTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurrencyTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40E642ED75FCC5FE2565EF76 /* Pods_Currency.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Currency.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D725DD211A7CE4469111A52 /* Pods-CurrencyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurrencyTests.release.xcconfig"; path = "Target Support Files/Pods-CurrencyTests/Pods-CurrencyTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -116,13 +118,13 @@
 		26A302AC27DA1B610007253D /* Currency */ = {
 			isa = PBXGroup;
 			children = (
+				26A302E127DA1E130007253D /* Utilities */,
+				26A302DE27DA1DED0007253D /* Resources */,
+				26A302DD27DA1D900007253D /* Supporting Files */,
 				26A302AD27DA1B610007253D /* AppDelegate.swift */,
 				26A302AF27DA1B610007253D /* SceneDelegate.swift */,
 				26A302B127DA1B610007253D /* ViewController.swift */,
 				26A302B327DA1B610007253D /* Main.storyboard */,
-				26A302B627DA1B620007253D /* Assets.xcassets */,
-				26A302B827DA1B620007253D /* LaunchScreen.storyboard */,
-				26A302BB27DA1B620007253D /* Info.plist */,
 			);
 			path = Currency;
 			sourceTree = "<group>";
@@ -142,6 +144,24 @@
 				26A302D027DA1B620007253D /* CurrencyUITestsLaunchTests.swift */,
 			);
 			path = CurrencyUITests;
+			sourceTree = "<group>";
+		};
+		26A302DD27DA1D900007253D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				26A302BB27DA1B620007253D /* Info.plist */,
+				26A302B827DA1B620007253D /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		26A302DE27DA1DED0007253D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				26A302B627DA1B620007253D /* Assets.xcassets */,
+				26A302DF27DA1DFB0007253D /* Assets.swift */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		6E02EF0C8BF923430F202564 /* Frameworks */ = {
@@ -164,7 +184,6 @@
 				EDF91C8ECCB2D14EAF551627 /* Pods-CurrencyTests.debug.xcconfig */,
 				4D725DD211A7CE4469111A52 /* Pods-CurrencyTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -409,6 +428,7 @@
 			files = (
 				26A302B227DA1B610007253D /* ViewController.swift in Sources */,
 				26A302AE27DA1B610007253D /* AppDelegate.swift in Sources */,
+				26A302E027DA1DFB0007253D /* Assets.swift in Sources */,
 				26A302B027DA1B610007253D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -591,7 +611,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G8MTX2979S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Currency/Info.plist;
+				INFOPLIST_FILE = "Currency/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -620,7 +640,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = G8MTX2979S;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Currency/Info.plist;
+				INFOPLIST_FILE = "Currency/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
